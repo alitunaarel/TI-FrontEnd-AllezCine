@@ -1,0 +1,123 @@
+/*......................................................................hearder.........................................................................................................................................*/
+body{
+  margin: 0px;
+}
+
+.color{
+  background: orange;
+  width: 100%;
+  height: 5px;
+  margin-top: -8px;
+}
+
+nav{
+  margin-top: 20px;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.formulaire{
+  margin-top: 10px;
+}
+
+.login{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lgn{
+  width: 80px;
+  height: 35px;
+  margin-top: 12px;
+  margin-left: 50px;
+  color: white;
+  border-color: orange;
+  background-color: orange;
+}
+
+
+.champ{
+  width: 500px;
+  height: 35px;
+  border-radius: 31px 1px 1px 31px;
+  margin-left: 120px;
+  text-align: center;
+}
+
+  .header{
+    border-radius: 1px 31px 31px 1px;
+    width:60px;
+    height: 41px;
+    background-color: black;
+    color:white;
+    margin: 0px;
+    border-color: black;
+  }
+
+  .logoH{
+    margin-left: 220px;
+    width: 135px;
+    height: 50px;
+    margin-top: 2px;
+  }
+
+.phone{
+  width: 25px;
+  height: 25px;
+  margin-top: 16px;
+}
+
+p{
+  width: 130px;
+  margin-left: 18px;
+}
+
+
+/*...........................................................................footer...................................................................*/
+
+
+footer{
+  height: 400px;
+  width: 100%;
+  border-style: solid;
+}
+
+
+
+h1{
+  width: 300px;
+  color: orange;
+  border-style:solid;
+}
+
+.mail{
+  height: 40px;
+  width: 400px;
+  border-style:solid;
+}
+
+.foot{
+  height: 46px;
+  width: 100px;
+  border-color: orange;
+  background-color: orange;
+  color: white;
+  border-style: solid;
+}
+
+.logoF{
+float: right;
+margin-right: 50px;
+margin-top: -50px;
+border-style: solid;
+}
+
+.block{
+  width: 508px;
+  margin-left: 200px;
+  border-style: solid;
+}
+
+naveba
