@@ -33,16 +33,8 @@
   </div>
 </nav>
 </header>
-
-
-
-
-
     <div class="bignav">
-
-
       <div class="navbar">
-
                 <div id="home" class="div1">Home</div>
                 <div class="dropdown1">
             <button class="dropbtn1">Film
@@ -61,7 +53,8 @@
             </button>
             <div class="dropdown-content">
               <a href="#">Actions</a>
-              <a href="#">Adventures</a>
+              <hr >
+              <a href="#">Adventures</a><hr>
               <a href="#">Policier</a>
             </div>
           </div>
@@ -84,6 +77,20 @@
   <a href="#" id="projects">Instagram</a>
   <a href="#" id="contact">Contact</a>
 </div>
+
+  <div class="divpics">
+    <div class="bigpic">
+      <img class="img" src="image/tarzan.jpg" alt="">
+    </div>
+    <div class="littlepic">
+      <div class="pic1"><img class="img1" src="image/tarzan.jpg" alt=""> </div>
+      <div class="pic1"></div>
+      <div class="pic1"></div>
+      <div class="pic1"></div>
+      <div class="pic1"></div>
+    </div>
+
+  </div>
 
 
 
