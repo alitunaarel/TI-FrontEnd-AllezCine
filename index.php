@@ -78,19 +78,165 @@
   <a href="#" id="contact">Contact</a>
 </div>
 
-  <div class="divpics">
-    <div class="bigpic">
-      <img class="img" src="image/tarzan.jpg" alt="">
-    </div>
-    <div class="littlepic">
-      <div class="pic1"><img class="img1" src="image/tarzan.jpg" alt=""> </div>
-      <div class="pic1"></div>
-      <div class="pic1"></div>
-      <div class="pic1"></div>
-      <div class="pic1"></div>
-    </div>
 
-  </div>
+
+		<div class="jumbomango">
+			<div class="jumboleft">
+				<img src="image/tarzan.jpg">
+				<div class="caption">
+					<div class="p-bar"></div>
+					<button type="button" class="arrow left" aria-label="Left Align">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"><</span>
+					</button>
+					<span class="description">
+						<button class="orange-b">TARZAN</button>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, nam, error. Ipsa quod unde eaque, vero temporibus laudantium libero voluptate odio quis blanditiis voluptatum nobis nulla reprehenderit illum quaerat magni!</p>
+					</span>
+					<button type="button" class="arrow right" aria-label="Left Align">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true">></span>
+					</button>
+				</div>
+			</div>
+			<div class="jumboright">
+				<ul>
+					<li class="active">
+						<a href="">
+							<img src="image/tarzan.jpg" alt="">
+							<span>
+								<h3>Tarzan</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, sit dolores dignissimos dicta rem quae dolorum, totam, quas est delectus, illum ad rerum repudiandae facilis nostrum suscipit amet earum impedit.</p>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="image/tarzan.jpg" alt="">
+							<span>
+								<h3>Lorem</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, sit dolores dignissimos dicta rem quae dolorum, totam, quas est delectus, illum ad rerum repudiandae facilis nostrum suscipit amet earum impedit.</p>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="image/tarzan.jpg" alt="">
+							<span>
+								<h3>Lorem</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, sit dolores dignissimos dicta rem quae dolorum, totam, quas est delectus, illum ad rerum repudiandae facilis nostrum suscipit amet earum impedit.</p>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="image/tarzan.jpg" alt="">
+							<span>
+								<h3>Lorem</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, sit dolores dignissimos dicta rem quae dolorum, totam, quas est delectus, illum ad rerum repudiandae facilis nostrum suscipit amet earum impedit.</p>
+							</span>
+						</a>
+					</li>
+					<li>
+						<a href="">
+							<img src="image/tarzan.jpg" alt="">
+							<span>
+								<h3>Lorem</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, sit dolores dignissimos dicta rem quae dolorum, totam, quas est delectus, illum ad rerum repudiandae facilis nostrum suscipit amet earum impedit.</p>
+							</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+    <!-- nananananannanananana -->
+
+    <!-- CONTACT FORM -->
+		</div>
+		<div class="container" id="formulaire">
+			<div class="row">
+				<div class="col-xs-6">
+					<input class="form-control" type="text" placeholder="FIRST NAME">
+				</div>
+				<div class="col-xs-6">
+					<input class="form-control" type="text" placeholder="LAST NAME">
+				</div>
+
+				<div class="col-xs-6">
+					<input class="form-control" type="text" placeholder="EMAIL">
+				</div>
+				<div class="col-xs-6">
+					<input class="form-control" type="text" placeholder="SUBJECT">
+				</div>
+				<div class="col-xs-12">
+					<textarea class="form-control" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+					<button type="submit" class="send-message">SEND MESSAGE</button>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="container">
+				<!-- SUBSCRIBE FORM -->
+				<h3>SUBSCRIBE TO US</h3>
+				<div class="subs">
+					<form action="">
+						<input type="email" placeholder="Your email...">
+						<button class="orange-b">SEND</button>
+					</form>
+					<!-- LOGO -->
+					<div class="logo">
+						<img src="images/logo.png" alt="">
+					</div>
+				</div>
+				<div class="line"></div>
+				<!-- COPYRICHT -->
+
+				<span class="copy">© 2011 One Movies. All rights reserved | Design by < Becode ></span>
+				<!-- FOOTER LINKS -->
+				<ul>
+					<li><a href="#">MOVIES</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">ACTION</a></li>
+					<li><a href="#">ADVENTURE</a></li>
+					<li><a href="#">COMEDY</a></li>
+					<li><a href="#">ICONS</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				</ul>
+			</div>
+		</footer>
+		<div id="myModal" class="modal" tabindex="-1" role="dialog" data-show="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Age control</h4>
+					</div>
+					<div class="modal-body">
+						<p>Please, enter your birthday so we can be sure you may watch porn:</p>
+						<input type="text" class="form-control" id="okForPorn">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" id="sendPornAge">Go!</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<div class="cookies">
+			<div class="alert alert-dismissible" role="alert">
+				En utilisant les services de AllezCine, vous acceptez notre Utilisation des Cookies et le Transfert de Données hors de l'UE. Nous et nos partenaires opérons mondialement et utilisons des cookies, y compris pour des statistiques, de la personnalisation et des publicités.
+				<button class="btn btn-danger" id="acceptCookies">OK</button>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+ 		<script src="js/moment-with-locales.min.js"></script>
+ 		<script src="js/bootstrap-datetimepicker.min.js"></script>
+ 		<script src="js/script.js"></script>
+
 
 
 

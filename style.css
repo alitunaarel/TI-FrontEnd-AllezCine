@@ -146,43 +146,6 @@ background-color: orange;
 hr{
   color: white;
 }
-#mySidenav a {
-    position: absolute;
-    left: -80px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 100px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    border-radius: 0 31px 31px 0;
-    margin-top: 200px;
-
-}
-
-#mySidenav a:hover {
-    left: 0;
-}
-
-#about {
-    top: 20px;
-    background-color: #4CAF50;
-}
-
-#blog {
-    top: 80px;
-    background-color: #2196F3;
-}
-
-#projects {
-    top: 140px;
-    background-color: #f44336;
-}
-
-#contact {
-    top: 200px;
-    background-color: #555
-}
 
 
 .color{
@@ -251,44 +214,329 @@ margin-top: 16px;
 p{
 width: 140px;
 margin-left: 18px;
+display: unset;
 }
 
-.divpics{
-  border: 2px orange solid;
+.sidenav{
+  position: fixed;
+  z-index: 1;
+}
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 31px 31px 0;
+    margin-top: 100px;
+
+
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555
+}
+
+/******************** JUMBOTRON *********************/
+.jumbomango {
+	box-sizing: border-box;
+	width: 100%;
+	clear: both;
+}
+/*LEFT*/
+.jumboleft {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 75%;
+	height: 500px;
+	background-color: grey;
+	position: relative;
+}
+.jumboleft img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.jumboleft .caption {
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(33,33,33,.7);
+	height: 140px;
   width: 100%;
-  height: 650px;
-  float: left;
+}
+.jumboleft .caption .p-bar {
+	position: absolute;
+	background-color: #ff8925;
+	width: 70%;
+	height: 4px;
+	top: 0; left: 0;
+}
+.jumboleft .caption .arrow {
+	position: absolute;
+	background-color: rgba(33,33,33,.8);
+	border-radius: 10px;
+	border: 2px solid #999;
+	color: #999;
+	width: 40px;
+	height: 40px;
+	top: calc(50% - 20px);
+}
+.jumboleft .caption .arrow:hover {
+	border: 2px solid #fff;
+	color: #fff;
 }
 
-.bigpic{
-  border: 1px red solid;
-  width: 69.7%;
-  height: 650px;
-  display: inline-block;
+.jumboleft .caption .left {
+	left: 20px;
+}
+.jumboleft .caption .right {
+	right: 20px;
 }
 
-.littlepic{
-  border: 1px black solid;
-  height: 650px;
-  width: 30%;
-  float: right;
-  display: inline-block;
-  background-color: black;
+.jumboleft .caption .description {
+	display: inline-block;
+	position: relative;
+	left: 90px;
+	top: 30px;
+	width: calc( 100% - 180px );
+	color: #fff;
 }
 
-.pic1{
-  border: 1px solid blue;
-  width: 129px;
-  height: 128px;
+/*RIGHT*/
+.jumboright {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 25%;
+	height: 500px;
+	background-color: #000;
+	float: right;
+}
+.jumboright ul {
+	box-sizing: border-box;
+	list-style: none;
+	padding: 0;
+	height: 100%;
+  display: unset
+}
+.jumboright li{
+	box-sizing: border-box;
+	border-top: 1px solid #222;
+	border-left: 1px solid #222;
+	height: 20%;
+}
+
+.jumboright a {
+	width: 100%;
+	display: inline-block;
+}
+.jumboright a:hover {
+	text-decoration: none;
+	color: grey;
+}
+.jumboright img {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 2px;
+	width: 94px;
+	height: 94px;
+	vertical-align: top;
+}
+.jumboright span {
+	display: inline-block;
+	width: calc( 100% - 102px );
+}
+.jumboright h3,.jumboright p {
+	margin: 0px;
+}
+.jumboright h3{
+	font-size: 14px;
+	color: #ff8925;
+	margin: 4px 0;
+}
+.jumboright p {
+	font-size: 11px;
+}
+.jumboright li.active {
+	background-color: #ff8925;
+}
+.jumboright li.active a {
+	color: #000;
+}
+.jumboright li.active h3 {
+	color: #000;
+}
+/******************* /JUMBOTRON *********************/
+
+
+/******************** CONTACT *********************/
+#contact {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#contact h3 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#contact ul {
+	list-style: none;
+	padding: 0;
+}
+#contact ul li {
+	padding: 7px 0;
 }
 
 
-.img{
-  width: 100%;
-  height: 650px;
+.carre-gris {
+	height: 225px;
+	width: 100%;
+	background-color: rgb(52,52,52);
+	color:#fff;
+	position: relative;
+	padding: 25px 20px;
+}
+.rond {
+	width: 40px;
+	height: 40px;
+	background-color: #ff8925;
+	border-radius: 100%;
+	position: absolute;
+	top: -20px;
+	left: calc(50% - 20px);
+}
+.rond span {
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
-.img1{
-  width: 129px;
-  height: 128px;
+#contact .social li {
+	padding: 2px;
 }
+#contact .social a {
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 150px;
+}
+#contact .social li a i {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	margin-right: 10px;
+}
+#contact .social .face a {
+	background-color: #3b5998;
+}
+#contact .social .twit a {
+	background-color: #00aced;
+}
+#contact .social .goog a {
+	background-color: #D34836;
+}
+.send-message {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+
+#formulaire {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+#formulaire input, #formulaire textarea {
+	margin-bottom: 13px;
+	border:1px solid grey;
+	box-shadow: none;
+	border-radius: 3px;
+}
+
+/******************* /CONTACT *********************/
+/******************* FOOTER *********************/
+
+footer {
+	background-color: rgb(33,33,33);
+	color: #fff;
+	padding: 60px 0 100px 0;
+}
+footer .subs{
+	display: block;
+	clear: both;
+	margin-bottom: 30px;
+}
+footer .logo{
+	display: inline-block;
+	float: right;
+}
+footer .logo img{
+	width: 140px;
+}
+footer .line{
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	clear: both;
+}
+footer input {
+	width: 300px;
+	height: 34px;
+	padding: 10px;
+}
+footer form .orange-b{
+	margin-bottom: 0px;
+}
+footer .copy {
+	position: relative;
+	top: 40px;
+	color: grey;
+}
+footer ul {
+	float: right;
+	list-style: none;
+	padding: 0;
+	position: relative;
+	top: 30px;
+}
+footer li {
+	display: inline-block;
+	padding: 10px;
+}
+footer h3{
+	color: #ff8925;
+	font-weight: 200;
+	margin-bottom: 30px;
+}
+footer form {
+	display: inline-block;
+	padding: 10px;
+	border: 1px solid #fff;
+}
+
+/****************** /FOOTER *********************/
